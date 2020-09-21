@@ -8,5 +8,5 @@
 ### Tarefas
 
 - [x] Bot Login
-- [x] Entra do bot em chamada de video
+- [x] Entrada do bot em chamada de video
 - [ ] tocar musica
