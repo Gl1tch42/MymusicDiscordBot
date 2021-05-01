@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const ytdl = require('ytdl-core');
 const yts = require('yt-search')
 const queue = new Map();
-const token = require('./token.json')
+const {token} = require('./token.json')
 
 // const tocar = require('./class/tocar');
 // const Lista = require('./class/lista');
