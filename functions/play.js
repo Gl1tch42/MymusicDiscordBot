@@ -63,6 +63,7 @@ function play(guild, song) {
     if (!song) {
         serverQueue.voiceChannel.leave();
         queue.delete(guild.id);
+        //serverQueue.connection.dispatcher.end();
         return;
     }
     const dispatcher = serverQueue.connection
