@@ -9,4 +9,4 @@
 
 - [x] Bot Login
 - [x] Entrada do bot em chamada de video
-- [ ] tocar musica
+- [x] tocar musica
