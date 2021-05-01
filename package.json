@@ -2,9 +2,10 @@
   "name": "music-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "musicBot.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,11 @@
   },
   "homepage": "https://github.com/Gl1tch42/MymusicDiscordBot#readme",
   "dependencies": {
-    "@discordjs/opus": "^0.3.2",
-    "discord.js": "^12.3.1",
-    "ffmpeg": "0.0.4",
-    "fluent-ffmpeg": "^2.1.2",
-    "opusscript": "0.0.7",
-    "ytdl-core": "^3.2.2"
+    "@discordjs/opus": "^0.5.0",
+    "discord.js": "^12.5.3",
+    "ffmpeg-static": "^4.3.0",
+    "opusscript": "0.0.8",
+    "yt-search": "^2.7.6",
+    "ytdl-core": "^4.5.0"
   }
 }
