@@ -8,8 +8,8 @@ async function execute(msg, message, serverQueue) {
 
     let url = msg[msg.length - 1];
     if (!url.startsWith('https://www.yout')) {
-        const r = await yts(msg[msg.length - 1])
-        const videos = r.videos.slice(0, 1)
+        const r = await yts(msg[msg.length - 1]);
+        const videos = r.videos.slice(0, 1);
         videos.forEach(v => {
             url = v.url
         })
