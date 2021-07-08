@@ -6,6 +6,6 @@ function passar(message, serverQueue) {
             "Entra no canal de voz porra !"
         );
     if (!serverQueue)
-        return message.channel.send("nao tem musica para passar seu cego filho da puta!, use o comando *lista");
+        return message.channel.send("nao tem musica para passar seu cego filho da puta!, use o comando -lista");
     serverQueue.connection.dispatcher.end();
 }
